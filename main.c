@@ -48,7 +48,7 @@ int main(int argc, char *argv[]) {
     strcat(new_filename, ".jpeg");
 
     remove(filename);
-    rename("temp.bin", filename);
+    rename("temp.bin", new_filename);
 
     return 0;
 }
